@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import Navbar from '../components/navbar.jsx';
-import '../css/resume.css';
 import '../css/portfolio.css';
 
 class Portfolio extends Component {
   render() {
     return (
       <div id="page-top">
-        <Navbar />
         <div className="container-fluid p-0">
 
         <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="education">

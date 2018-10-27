@@ -6,6 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../src/sections/navbar.jsx';
 import Home from '../src/sections/Home.jsx';
 import Skills from '../src/sections/Skills.jsx';
+import Experience from '../src/sections/Experience.jsx';
+import Education from '../src/sections/Education.jsx';
+import Portfolio from '../src/sections/Portfolio.jsx';
+import Site from '../src/sections/Site.jsx';
 
 class App extends Component {
   constructor(props) {
