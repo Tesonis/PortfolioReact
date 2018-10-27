@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from '../components/navbar.jsx';
-import '../css/resume.css';
 
 class Skills extends Component {
   render() {
