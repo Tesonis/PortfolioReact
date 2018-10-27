@@ -12,34 +12,52 @@ class Experience extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="resume-content mr-auto">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
-            <div className="resume-content mr-auto">
               <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <div className="subheading mb-1">Pink Elephant Inc.</div>
+              <div className="subheading mb-3">Burlington, ON</div>
+              <p>Develop and integrate prototype designs into existing site. Revamp and reinvigorate the website to a modern look and enhance the UI/UX to bring up the conversion on e-commerce sales.</p>
+              <ul>
+                <li>Rework internal CMS system to optimize efficiency and usability</li>
+                <li>Maintaining and improving SEO / Monitor Google Analytics for UX improvements</li>
+                <li>Full convertion of existing website to utilize the latest web libraries</li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">September 2017 - July 2018</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="resume-content mr-auto">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+              <h3 className="mb-0">Systems Developer (Co-op)</h3>
+              <div className="subheading mb-1">Hatch Ltd.</div>
+              <div className="subheading mb-3">Mississauga, ON</div>
+              <p>Experimentation with the latest (at the time) technology released by SAP. Enhance the default web application by adding in custom built functionality and integration to SAP. Automate QA processes.</p>
+              <ul>
+                <li>Developing UI interfaces using SAP Personas, JavaScript</li>
+                <li>Dealing with optimization and creating automated tests for web application</li>
+                <li>Pushing limits of the web applciation by creating workarond solutions</li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">September 2015 - December 2015</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row mb-5">
+            <div className="resume-content mr-auto">
+              <h3 className="mb-0">Web Developer (Co-op)</h3>
+              <div className="subheading mb-1">Wisdeal Corp</div>
+              <div className="subheading mb-3">Toronto, ON</div>
+              <p>Assist a team of developers to remake the corporate website to fit modern standards. Creating new functionality to enhance the UI/UX and streamline the search process.</p>
+              <ul>
+                <li>Creatign and integrating APIs to create new functionality</li>
+                <li>Create seperate mobile site as well as a responsive desktop site</li>
+                <li>Use AJAX and JSON to optimize functionalities and automate existing manual processes</li>
+              </ul>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">April 2010 - August 2015</span>
             </div>
           </div>
 
