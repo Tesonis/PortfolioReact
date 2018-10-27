@@ -5,6 +5,7 @@ import '../src/css/resume.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../src/sections/navbar.jsx';
 import Home from '../src/sections/Home.jsx';
+import Skills from '../src/sections/Skills.jsx';
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class App extends Component {
           <div>
               <Navbar />
               <Home/>
+              <Skills/>
           </div>
       );
   }
