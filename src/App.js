@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import '../src/css/resume.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/css/resume.css'
 import Navbar from '../src/sections/navbar.jsx';
 import Home from '../src/sections/Home.jsx';
 import Skills from '../src/sections/Skills.jsx';
