@@ -30,8 +30,8 @@ class App extends Component {
           <div>
               <Navbar />
               <Home/>
-              <Skills/>
               <Experience/>
+              <Skills/>
               <Education/>
               <Portfolio/>
               <Site/>

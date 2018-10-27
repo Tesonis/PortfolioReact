@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../css/resume.css';
-
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
+import { FaRegCircle } from 'react-icons/fa';
 class Home extends Component {
     render() {
         return (
@@ -12,40 +14,26 @@ class Home extends Component {
                             <h1 className="mb-0">Terry
                                 <span className="text-primary ml-2">Huang</span>
                             </h1>
-                            <div className="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                                <a href="mailto:name@email.com">name@email.com</a>
+                            <hr/>
+                            <h1 className="subheading ">looking for Full time employment and freelance opportunities</h1>
+                            <p className="my-4">A young and forward looking software developer. From the ever moving front-end designs, to dealing with complex logic of the bank-end, I have worked on many projects that demonstates both my creativity and eye for design, as well as the capability to integrate and develop common web services and databases.</p>
+                            <p>I like to pride myself on being forward looking, always looking for improvement, and paying close attention to detail and taking pride in my work, as such, you can always expect me to do take the initiative and push the agenda forward. </p>
+                            <h2 className="subheading mt-5 font-weight-bold">Contact Me</h2>
+                            <div className="subheading mb-2">(519) 635-0189
+                                <br/><a href="mailto:t.linhuang@gmail.com">t.linhuang@gmail.com</a>
                             </div>
-                            <p className="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                             <ul className="list-inline list-social-icons mb-0">
                                 <li className="list-inline-item">
-                                    <a href="#">
-                                        <span className="fa-stack fa-lg">
-                                            <i className="fa fa-circle fa-stack-2x"></i>
-                                            <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    <a href="https://www.linkedin.com/in/terry-huang-860363136" target="_blank">
+                                        <span className="fa-lg">
+                                        <FaLinkedin/>
                                         </span>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="#">
-                                        <span className="fa-stack fa-lg">
-                                            <i className="fa fa-circle fa-stack-2x"></i>
-                                            <i className="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="#">
-                                        <span className="fa-stack fa-lg">
-                                            <i className="fa fa-circle fa-stack-2x"></i>
-                                            <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="#">
-                                        <span className="fa-stack fa-lg">
-                                            <i className="fa fa-circle fa-stack-2x"></i>
-                                            <i className="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    <a href="https://github.com/Tesonis" target="_blank">
+                                        <span className="fa-lg">
+                                            <FaGithubSquare/>
                                         </span>
                                     </a>
                                 </li>
