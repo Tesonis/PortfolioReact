@@ -31,6 +31,10 @@ class App extends Component {
               <Navbar />
               <Home/>
               <Skills/>
+              <Experience/>
+              <Education/>
+              <Portfolio/>
+              <Site/>
           </div>
       );
   }
